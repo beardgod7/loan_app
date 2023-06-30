@@ -1,0 +1,53 @@
+!DOCTYPE html>
+<html>
+  <head>
+    <title>home</title>
+    <style>
+      body {
+        background-image: url('../public/me.jpg');
+        background-size: cover;
+      }
+      
+      h1 {
+        color: white;
+        text-align: center;
+        margin-top: 50px;
+      }
+      
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: #111;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to fxxloan company!</h1>
+    <ul>
+      <li><a href="/login">Login</a></li>
+      <li><a href="/register">Register</a></li>
+      <li><a href="/contact">Contact Us</a></li>
+      <li><a href="./admin">AdminHub</a></li>
+    </ul>
+    <script src="../routes/routers.js"></script>
+  </body>
+</html>
+

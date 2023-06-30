@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Profile Page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Profile</h1>
+        </header>
+        <main>
+            <!-- Profile information -->
+            <section id="profile-info">
+              <div class="card-body">
+                <h2>Personal Information</h2>
+                <p></p>
+                <div>
+                    <span id="surname">Surname <br><%= user22.surname %></span>
+                </div>
+                <p></p>
+                <div>
+                    <span id="other_name">Other_name <br><%= user22.other_name %></span>
+                </div>
+                <p></p>
+                <div>
+                    <span id="user_name">User_name<br><%= user22.user_name %></span>
+                </div>
+                <p></p>
+                <div>
+                    <span id="email">Email <br><%= user22.email %></span>
+                </div>
+                <p></p>
+                <div>
+                    <span id="address">Address <br><%= user22.address %></span>
+                </div>
+                <p></p>
+                <div>
+                    <span id="phone_number">Phone_number <br><%= user22.phone_number %></span>
+                </div>
+              </div>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2023 Your Website. All rights reserved.</p>
+        </footer>
+    </div>
+    <script src="../routes/routers.js"></script>
+</body>
+</html>
+
+

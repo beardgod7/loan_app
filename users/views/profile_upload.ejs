@@ -1,0 +1,55 @@
+<style>
+    /* Example CSS styles, modify as per your design requirements */
+    form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+  
+    div {
+      margin-bottom: 10px;
+    }
+  
+    label {
+      display: block;
+      font-weight: bold;
+    }
+  
+    input[type="file"],
+    select {
+      display: block;
+      margin-top: 5px;
+    }
+  
+    button[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      cursor: pointer;
+    }
+  
+    .row {
+      margin-top: 10px;
+    }
+  </style>
+  
+  <form action="/upload" method="post" enctype="multipart/form-data">
+    <div>
+      <label for="documentType">Document Type:</label>
+      <select name="documentType" id="documentType">
+        <option value="nationalID">National ID</option>
+        <option value="bankStatement">Bank Statement</option>
+        <option value="birthCertificate">Birth Certificate</option>
+      </select>
+    </div>
+    <div>
+      <label for="file">Upload File:</label>
+      <input type="file" name="file" id="file" />
+    </div>
+    <button type="submit">Upload</button>
+    <div class="row">
+      <a href="http://localhost:5000/dashboard" class="btn orange">Home</a>
+    </div>
+    <script src="../routes/routers.js"></script>
+  </form>
+  
