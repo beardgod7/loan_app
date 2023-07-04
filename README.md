@@ -63,7 +63,7 @@ Once the microservice is running, you can access the user interface through your
 
 - **Registration Page**: Visit `http://localhost:3000/register` to register as a new user and provide the necessary details.
 
-- **Landing Page**: After logging in or registering, you will be redirected to the landing page. This page allows you to submit loan applications, provide relevant information, and upload supporting documents.
+- **Dashboard Page**: After logging in or registering, you will be redirected to the landing page. This page allows you to submit loan applications, provide relevant information, and upload supporting documents.
 
 Please note that the actual implementation of these pages is not provided in the code snippet and needs to be developed separately based on your specific requirements.
 
