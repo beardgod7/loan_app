@@ -1,7 +1,7 @@
 # loan_app
-# LoanApp Microservice with User Interface
+# LoanApp  with User Interface
 
-The LoanApp microservice is a server-side application built using Node.js and Express.js framework. It provides a user-friendly web interface for managing loan applications and includes functionalities for user registration, login, and loan submission. The microservice utilizes PostgreSQL as its database for storing user information, loan applications, and other relevant data.
+The LoanApp  is a server-side application built using Node.js and Express.js framework using microservice architecture . It provides a user-friendly web interface for managing loan applications and includes functionalities for user registration, login, and loan submission. The app utilizes PostgreSQL as its database for storing user information, loan applications, and other relevant data and information is exchange from users to admin by microservice architecture.
 
 ## Features
 
